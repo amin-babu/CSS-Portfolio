@@ -13,30 +13,38 @@
  .col-12 {width:100%;}
 
  .navber{
+  background-color: #0c6168;
+  text-align: center;
   padding: 4px 7%;
-  align-items: center;
- }
- .nav-logo{
+}
+
+.nav-logo{
   text-align: left;
- }
+}
+
+.nav-logo img{
+  height: 85px;
+}
 
  .navber-heading h1{
+  margin: 8px 0;
   text-align: right;
  }
 
  .nav-menu{
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
  }
 
  .nav-menu a{
-  background-color:transparent;
-  padding: 5px 10px;
+  background-color: transparent;
   margin: 20px 0;
   transition: .5s;
+  margin-left: 5px;
  }
 
  .nav-menu a:hover{
   background-color: transparent;
-  color: gray;
+  color: #13a1ad;
 }

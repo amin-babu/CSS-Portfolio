@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.nav-logo img{
+  height: 100px;
+}
+
+.navber-heading h1{
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px;
+  margin: 7px 0;
+  background-color: #13A1AD;
+  border-radius: 10px;
+}
+
+.nav-menu a:hover{
+  background-color: #13A1AD;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 10px;
+}
+
+/* for mobile */
+
+[class*="col-"]{
+  width: 100%;
+}
+
+.navber{
+  background-color: #0c6168;
+  text-align: center;
+  padding: 1% 7%;
+}
+
+.navber::after{
+  content: '';
+  display: table;
+  clear: both;
+}
