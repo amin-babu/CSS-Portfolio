@@ -12,6 +12,8 @@
  .col-11 {width:91.66%;}
  .col-12 {width:100%;}
 
+ /* navber design star here */
+
  .navber{
   background-color: #0c6168;
   text-align: center;
@@ -49,3 +51,45 @@
   background-color: transparent;
   color: #13a1ad;
 }
+
+
+/* navber design ends here */
+
+/* -----------------------------------------------------
+----------2nd video codint starts here------------------
+----------------------------------------------------- */
+
+
+
+/* profile design starts here */
+.top-weather-icon{
+  right: 100px;
+  width: 100px;
+  transition: width 2s, transform 2s;
+  cursor: pointer;
+}
+
+.top-weather-icon:hover{
+  width: 120px
+}
+
+.bottom-weather-icon{
+  bottom: 10px;
+  left: 140px;
+  width: 100px;
+  transition: width 2s, transform 2s;
+  cursor: pointer;
+}
+
+.bottom-weather-icon:hover{
+  width: 120px
+}
+
+.profile-des p{
+  color: gray;
+  text-align: center;
+  margin-bottom:10px;
+  margin: 0 auto;
+  width:50%;
+}
+/* profile design starts here */

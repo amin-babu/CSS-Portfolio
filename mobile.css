@@ -39,6 +39,16 @@ body{
   background-color: #049aaa;
 }
 
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 [class*="col-"]{
   float: left;
   padding: 10px;
@@ -61,3 +71,64 @@ body{
   display: table;
   clear: both;
 }
+
+
+
+
+/* -----------------------------------------------------
+----------2nd video codint starts here------------------
+----------------------------------------------------- */
+
+/* profile design starts from here*/
+.profile{
+  padding: 130px 10px;
+  position: relative;
+  text-align: center;
+}
+
+.profile img{
+  height: 90px;
+}
+
+.top-weather-icon{
+  position: absolute;
+  right: 60px;
+  top: 40px;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.top-weather-icon:hover{
+  transform: rotate(360deg);
+}
+
+.profile-des h1{
+  font-family: 'Satisfy' , cursive;
+  font-size: 3rem;
+}
+
+.profile-des p{
+  color: gray;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.bottom-weather-icon{
+  position: absolute;
+  left: 60px;
+  bottom: 10px;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.bottom-weather-icon:hover{
+  transform: rotate(360deg);
+}
+
+.profile{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* profile design ends here*/
